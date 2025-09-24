@@ -19,6 +19,9 @@ A **Linked List** is a linear data structure in which elements are connected usi
 
 Thus, nodes are dynamically linked together to form a chain.
 
+<img width="957" height="189" alt="image" src="https://github.com/user-attachments/assets/4027c904-3621-4480-a7bf-a49c348ae5ef" />
+
+
 ### Why Linked List?
 
 1. **Dynamic Size:** Memory is allocated or deallocated at runtime.
