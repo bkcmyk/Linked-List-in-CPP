@@ -19,6 +19,8 @@ A **Linked List** is a linear data structure in which elements are connected usi
 
 Thus, nodes are dynamically linked together to form a chain.
 
+Unlike arrays, linked lists do not store data in contiguous memory locations. Instead, nodes are dynamically allocated and connected using pointers. This provides flexibility in memory usage and efficient insertion/deletion.
+
 <img width="957" height="189" alt="image" src="https://github.com/user-attachments/assets/4027c904-3621-4480-a7bf-a49c348ae5ef" />
 
 
@@ -28,6 +30,28 @@ Thus, nodes are dynamically linked together to form a chain.
 2. **Ease of Insertion/Deletion:** Unlike arrays, no shifting of elements is needed.
 3. **Efficient Memory Utilization:** Uses only as much memory as required.
 4. **Implementation Basis:** Advanced data structures like stack, queue, graphs, and hash maps are built using linked lists.
+
+## Comparison with Arrays
+
+The key differences between **Arrays** and **Linked Lists** are:
+
+* **Arrays**
+
+  * Stored in **contiguous memory**.
+  * Fixed size (must be declared beforehand).
+  * Insertion/Deletion is costly (requires shifting).
+  * Direct access possible in O(1) using index.
+
+* **Linked Lists**
+
+  * Stored in **non-contiguous memory** using pointers.
+  * Dynamic size (grow/shrink at runtime).
+  * Insertion/Deletion efficient (O(1) when pointer known).
+  * No direct access (requires traversal, O(n)).
+    
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/dc0037ed-14f2-42fc-a3e0-dffcd8db782a" />
+
 
 ### General Syntax of a Linked List Node
 
